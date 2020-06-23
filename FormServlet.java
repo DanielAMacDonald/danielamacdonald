@@ -9,16 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/FormServlet")
 public class FormServlet extends HttpServlet {
-    private static final long serialVersionUID = 1L;
 
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-
-    public FormServlet() {
-	super();
-    }
-
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 	
