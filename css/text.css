@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    color: white;
+    font-family: Georgia, Times, serif;
+}
+h1{
+    font-size: 64;
+    font-family: Arial, Verdana, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing:.2em;
+    text-align: center;
+}
+p.capital{
+    text-transform: capitalize;
+}
+p.underline{
+    text-decoration: underline;
+    line-height:5em;
+}
+p.credits{
+    text-indent: 20px;
+}
+p.shadow{
+    text-shadow: 2px 2px 0px #111111;
+}
+p.first:first-letter{
+    font-size:200%;
+}
+p.first:first-line{
+    font-weight:bold;
+}
+a:link{
+    color:yellow;
+}
+a:visited{
+    color:green;
+}
