@@ -1,0 +1,50 @@
+body {
+    font-family: "Times New Roman",Times, serif;
+    color: #111111;
+}
+
+div.ex1{
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+    margin: 20px auto 20px auto;
+}
+
+p.ex1txt {
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+}
+
+th {
+    border-bottom: 2px solid #0088dd;
+    text-align: left;
+    color: #0088dd;
+    font-weight:bold;
+    font-family: Arial, Verdana, sans-serif;
+}
+td.desc {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+p.borderex1 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0088dd;
+    width: 100px;
+    margin: 10px;
+}
+p.borderex2 {
+    border: 2px dotted #0088dd;
+    width: 250px;
+    padding: 5px;
+    margin: 50px 10px;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+}
