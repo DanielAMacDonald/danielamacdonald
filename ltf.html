@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <title>Lists, Tables, and Forms (CSS)</title>
+    <link href="css/ltf.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Lists, Tables, and Forms (CSS)</h1>
+    <p><a href="index.html">Return to index</a></p>
+    <ol>
+      <li>Earth</li>
+      <li>Water</li>
+      <li>Air</li>
+      <li>Fire</li>
+    </ol>
+    <ul class="star">
+      <li>Earth</li>
+      <li>Water</li>
+      <li>Air</li>
+      <li>Fire</li>
+    </ul>
+    <ul class="inside">
+      <li>Test Test Test Test Test Test Test Test Test Test Test</li>
+      <li>Test TestTestTestTes tTestTestTestTe stTest Test</li>
+      <li>TestTest TestTestTes tTestTestTestTest TestTest</li>
+    </ul>
+    <ul class="outside">
+      <li>Test Test Test Test Test Test Test Test Test Test Test</li>
+      <li>Test TestTestTestTes tTestTestTestTe stTest Test</li>
+      <li>TestTest TestTestTes tTestTestTestTest TestTest</li>
+    </ul>
+     <table class="schedule">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="time" scope="col">11am</th>
+          <th class="time" scope="col">12pm</th>
+          <th class="time" scope="col">1pm</th>
+          <th class="time" scope="col">2pm</th>
+          <th class="time" scope="col">3pm</th>
+          <th class="time" scope="col">4pm</th>
+          <th class="time" scope="col">5pm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="day" scope="row">Monday</th>
+          <td colspan="3">Math</td>
+          <td colspan="2">art</td>
+        </tr>
+        <tr>
+          <th class="day" scope="row">Tuesday</th>
+        </tr>
+      </tbody>
+    </table>
+
+     <table class="one">
+       <tr>
+	 <td>1</td>
+	 <td>2</td>
+       </tr>
+       <tr>
+	 <td>3</td>
+	 <td></td>
+       </tr>
+     </table>
+     <table class="two">
+       <tr>
+         <td>1</td>
+         <td>2</td>
+       </tr>
+       <tr>
+         <td>3</td>
+         <td></td>
+       </tr>
+     </table>
+     
+     <table class="three">
+       <tr>
+         <td>1</td>
+         <td>2</td>
+       </tr>
+       <tr>
+         <td>3</td>
+         <td>4</td>
+       </tr>
+     </table>
+     
+     <table class="four">
+       <tr>
+         <td>1</td>
+         <td>2</td>
+       </tr>
+       <tr>
+         <td>3</td>
+         <td>4</td>
+       </tr>
+     </table>
+     
+    <p>
+      <form>
+	<input id="email" type="text">
+      </form>
+    </p>
+    <p>
+      <form>
+	<input id="submit" type="submit" value="Register">
+      </form>
+    </p>
+    
+    <p>
+      <form>
+	 <fieldset>
+	   <legend>Newsletter</legend>
+	   <label for="name">Name:</label>
+	   <input id="name" type="text">
+	   <label for="email2">Email:</label>
+	   <input id="email2" type="text">
+	   <input id="submit2" type="submit" value="Subscribe">
+	 </fieldset>
+      </form>
+    </p>
+    
+  </body>
+</html>
