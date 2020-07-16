@@ -1,0 +1,18 @@
+p.example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+p.text, p.example {
+    width: 450px;
+    font-size: 16px;
+}
+h1.hamilton{
+    position: fixed;
+    top: 0px;
+    left: 500px;
+    width: 250px;
+    font-size: 64px;
+    font-family: "Times New Roman", Times, serif;
+    z-index:0;
+}
