@@ -3,7 +3,7 @@ p.example {
     top: 10px;
     left: 100px;
 }
-p.text, p.example {
+div.hamilton {
     width: 450px;
     font-size: 16px;
 }
@@ -15,4 +15,18 @@ h1.hamilton{
     font-size: 64px;
     font-family: "Times New Roman", Times, serif;
     z-index:0;
+}
+blockquote{
+    float:right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+p {
+    float: left;
 }
