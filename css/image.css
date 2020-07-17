@@ -1,0 +1,38 @@
+img.large{
+    width: 500px;
+    height: 500px;
+}
+img.medium{
+    width: 250px;
+    height: 250px;
+}
+img.small{
+    width: 100px;
+    height: 100px;
+}
+img.align-right{
+    float:right;
+    margin-left: 10px;
+}
+img.align-center{
+    display: block;
+    margin: 0px auto;
+}
+body{
+    background-image: url("../images/star.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a.button{
+    height:36px;
+    background-image: url("../images/email.png");
+    text-indent: -9999px;
+    display: inline-block;
+}
+a#test{
+    width: 173px;
+    background-position: 0px 0px;
+}
+a#test:hover{
+    background-color: red;
+}
