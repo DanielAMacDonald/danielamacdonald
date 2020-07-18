@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+header{
+    width: 1500px;
+    height: 1000px;
+    background-image: url("../images/bean.jpg");
+    background-size: cover;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: -10px;
+}
