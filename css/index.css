@@ -1,13 +1,22 @@
 body{
-    background-color: gray;
+    background-color: white;
+    margin: 0 auto;
+    width: 960px;
 }
-header{
-    width: 1500px;
-    height: 1000px;
-    background-image: url("../images/bean.jpg");
-    background-size: cover;
-    display: block;
-    margin: 0px auto;
+img{
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+.imgcont{
     position: relative;
-    top: -10px;
+    text-align: center;
+}
+.greet{
+    position: relative;
+    bottom: 500px;
+    right: 200px;
+    color: yellow;
+    font-family: "Lucida Handwriting", Georgia, serif;
+    font-size: 38px;
 }
