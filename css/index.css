@@ -1,22 +1,82 @@
+html{
+    height: 100%;
+}
+*{
+    color: yellow;
+    font-family: "Lucida Handwriting", Georgia, serif;
+    font-size: 38px;
+}
 body{
-    background-color: white;
+    background: url("../images/binding_dark.png");
+    background-color: black;
     margin: 0 auto;
     width: 960px;
+    height: 2304px;
+}
+.background{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    
+    /*Opacity*/
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    
+    /* IE 5-7 */
+    filter: alpha(opacity=70);
+    
+    /* Netscape */
+    -moz-opacity: 0.7;
+    
+    /* Safari 1.x */
+    -khtml-opacity: 0.7;
+    
+    /* Good browsers */
+    opacity: 0.7;
 }
 img{
-    border: 5px solid gray;
+    position: relative;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .imgcont{
     position: relative;
     text-align: center;
+    height: 100%;
 }
 .greet{
     position: relative;
-    bottom: 500px;
+    bottom: 530px;
     right: 200px;
-    color: yellow;
-    font-family: "Lucida Handwriting", Georgia, serif;
-    font-size: 38px;
+}
+ul{
+    position: relative;
+    bottom: 60px;
+}
+a, li{
+    position: relative;
+    color: white;
+    transition: color .5s ease-in-out;
+    display: inline;
+    text-decoration: none;
+    padding: 50px;
+}
+div.menu{
+    
+}
+ul.menu{
+    background: url("../images/binding_dark.png");
+    height: 50px;
+    width: 80%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover{
+    color: gray;
 }
