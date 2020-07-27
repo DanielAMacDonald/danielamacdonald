@@ -1,17 +1,20 @@
+@font-face{
+    font-family: tss;
+    src: url("../fonts/tss.ttf");
+}
 html{
     height: 100%;
 }
 *{
-    color: yellow;
-    font-family: "Lucida Handwriting", Georgia, serif;
+    color: white;
+    font-family: tss;
     font-size: 38px;
 }
 body{
-    background: url("../images/binding_dark.png");
-    background-color: black;
+    background-color: white;
     margin: 0 auto;
     width: 960px;
-    height: 2304px;
+    height: 100%;
 }
 .background{
     background-color: white;
@@ -20,6 +23,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     z-index: 0;
     
     /*Opacity*/
@@ -38,9 +42,8 @@ body{
     /* Good browsers */
     opacity: 0.7;
 }
-img{
+img.ny{
     position: relative;
-    border-radius: 10px;
     margin-top: 10px;
 }
 
@@ -57,26 +60,31 @@ img{
 ul{
     position: relative;
     bottom: 60px;
+    right: 40px;
 }
 a, li{
     position: relative;
-    color: white;
+    color: black;
     transition: color .5s ease-in-out;
     display: inline;
     text-decoration: none;
-    padding: 50px;
+    padding: 25px;
 }
 div.menu{
     
 }
 ul.menu{
-    background: url("../images/binding_dark.png");
+    background-color: white;
     height: 50px;
-    width: 80%;
-    border-radius: 50px;
+    width: 100%;
+
     margin-left: auto;
     margin-right: auto;
 }
 a:hover{
     color: gray;
+}
+img.instagram{
+    height: 40px;
+    width: 40px;
 }
