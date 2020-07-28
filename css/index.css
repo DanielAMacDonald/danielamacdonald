@@ -6,7 +6,7 @@ html{
     height: 100%;
 }
 *{
-    color: white;
+    color: black;
     font-family: tss;
     font-size: 38px;
 }
@@ -53,13 +53,15 @@ img.ny{
     height: 100%;
 }
 .greet{
+    color: black;
+    opacity: 100%;
+    z-index: 10;
     position: relative;
-    bottom: 530px;
-    right: 200px;
+    padding-top: 36px;
 }
 ul{
     position: relative;
-    bottom: 60px;
+    bottom: 0px;
     right: 40px;
 }
 a, li{
@@ -82,7 +84,8 @@ ul.menu{
     margin-right: auto;
 }
 a:hover{
-    color: gray;
+    text-decoration: underline;
+    text-decoration-color: gray;
 }
 a.button{
     background-image: url("../images/instagram.png");
@@ -97,4 +100,18 @@ a.button{
 }
 a.button:hover{
     opacity: 50%;
+    
+}
+p{
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+br{
+    display: block;
+    margin: 10px;
 }
