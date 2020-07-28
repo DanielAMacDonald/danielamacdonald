@@ -1,15 +1,4 @@
-@font-face{
-    font-family: tss;
-    src: url("../fonts/tss.ttf");
-}
-html{
-    height: 100%;
-}
-*{
-    color: black;
-    font-family: tss;
-    font-size: 38px;
-}
+@import url("guide.css");
 body{
     background-color: white;
     margin: 0 auto;
@@ -45,62 +34,6 @@ body{
 img.ny{
     position: relative;
     margin-top: 10px;
-}
-
-.imgcont{
-    position: relative;
-    text-align: center;
-    height: 100%;
-}
-.greet{
-    color: black;
-    opacity: 100%;
-    z-index: 10;
-    position: relative;
-    padding-top: 36px;
-}
-ul{
-    position: relative;
-    bottom: 0px;
-    right: 40px;
-}
-a, li{
-    position: relative;
-    color: black;
-    transition: color .5s ease-in-out;
-    display: inline;
-    text-decoration: none;
-    padding: 25px;
-}
-div.menu{
-    
-}
-ul.menu{
-    background-color: white;
-    height: 50px;
-    width: 100%;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: gray;
-}
-a.button{
-    background-image: url("../images/instagram.png");
-    padding: 0px;
-    width: 35px;
-    height: 35px;
-    text-indent: -9999px;
-    display: inline-block;
-    background-size: 35px;
-    border-radius: 30px;
-    transition: opacity .5s ease-in-out;
-}
-a.button:hover{
-    opacity: 50%;
-    
 }
 p{
     position: relative;
