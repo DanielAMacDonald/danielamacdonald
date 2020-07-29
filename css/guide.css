@@ -2,9 +2,6 @@
     font-family: tss;
     src: url("../fonts/tss.ttf");
 }
-html{
-    height: 100%;
-}
 *{
     color: black;
     font-family: tss;
@@ -13,10 +10,11 @@ html{
 html{
     height: 100%;
 }
-*{
-    color: black;
-    font-family: tss;
-    font-size: 38px;
+body{
+    background-color: white;
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
 }
 .imgcont{
     position: relative;
@@ -64,7 +62,7 @@ a.button:hover{
     opacity: 50%;
 
 }
-.greet{
+.name{
     color: black;
     opacity: 100%;
     z-index: 10;

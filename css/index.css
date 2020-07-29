@@ -1,36 +1,4 @@
 @import url("guide.css");
-body{
-    background-color: white;
-    margin: 0 auto;
-    width: 960px;
-    height: 100%;
-}
-.background{
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    z-index: 0;
-    
-    /*Opacity*/
-    /* IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    
-    /* IE 5-7 */
-    filter: alpha(opacity=70);
-    
-    /* Netscape */
-    -moz-opacity: 0.7;
-    
-    /* Safari 1.x */
-    -khtml-opacity: 0.7;
-    
-    /* Good browsers */
-    opacity: 0.7;
-}
 img.ny{
     position: relative;
     margin-top: 10px;
