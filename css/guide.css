@@ -18,11 +18,11 @@ body{
 }
 .imgcont{
     position: relative;
-    text-align: center;
     height: 100%;
 }
 ul{
     position: relative;
+    text-align: center;
     bottom: 0px;
     right: 40px;
 }
@@ -68,5 +68,6 @@ a.button:hover{
     z-index: 10;
     position: relative;
     padding-top: 36px;
+    text-align: center;
 }
 
