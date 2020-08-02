@@ -1,12 +1,12 @@
 <?php
-echo "Made it here2!";
+ini_set('display_errors',0);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require '../PHPMailer/src/Exception.php';
 require '../PHPMailer/src/PHPMailer.php';
 require '../PHPMailer/src/SMTP.php';
 
-$mail = new PHPMailer();
+$mail = new PHPMailer(true);
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
 
@@ -15,8 +15,8 @@ $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "tls";
 $mail->Port       = 587;
 $mail->Host       = "smtp.gmail.com";
-$mail->Username   = "email";
-$mail->Password   = "password";
+$mail->Username   = "user";
+$mail->Password   = "pass";
 
 $mail->IsHTML(true);
 $mail->AddAddress("danielamacd@gmail.com", "recipient-name");
