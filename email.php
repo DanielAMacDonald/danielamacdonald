@@ -18,11 +18,17 @@ $mail->Host       = "smtp.gmail.com";
 $mail->Username   = "user";
 $mail->Password   = "pass";
 
+$mess = $_REQUEST['message'];
+if(isset($_REQUEST['email'])){
+$mess .="<br>";
+$mess .=$_REQUEST['email'];
+}
+
 $mail->IsHTML(true);
 $mail->AddAddress("danielamacd@gmail.com", "recipient-name");
 $mail->SetFrom("danielamacd@gmail.com", $_REQUEST['name']);
 $mail->Subject = $_REQUEST['subject'];
-$content = $_REQUEST['message'];
+$content = $mess;
 
 $mail->MsgHTML($content); 
 if(!$mail->Send()) {
@@ -31,5 +37,5 @@ if(!$mail->Send()) {
 } else {
   echo "Email sent successfully";
 }
-header("Location: index.html");
+header("Location: index");
 ?>
