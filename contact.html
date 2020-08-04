@@ -3,18 +3,18 @@
 <html>
   <head>
     <title>Daniel MacDonald</title>
-    <link href="css/contact.css" type="text/css" rel="stylesheet">
+    <link href="css/contact.css?ver=1.0" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="imgcont">
+    <div class="menu">
       <div class="name">Daniel MacDonald</div>
-      <div class="menu">
-	<ul class="menu">
-          <li class="about"><a href="index" class="about">About</a></li>
-          <li class="resume"><a href="resume.pdf" class="resume">Resume</a></li>
-          <li class="contact"><a href="contact" class="contact">Contact</a></li>
-	</ul>
-      </div>
+      <ul class="menu">
+        <li class="about"><a href="index" class="about">About</a></li>
+        <li class="resume"><a href="resume.pdf" class="resume">Resume</a></li>
+        <li class="contact"><a href="contact" class="contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="cont">
       <p>Have any questions? Let's talk!</p>
       <form method="post" name="contact_form" action="email.php">
 	<label for="name">Name</label>
@@ -26,14 +26,14 @@
 	<label for="message">Message</label>
 	<textarea id="message" name="message" class="text" cols="2" rows="5" required></textarea>
 	<div class="submit">
-	  <input type="submit" value="Submit" class="submit">
-	</div>
+	    <input type="submit" value="Submit" class="submit">
+	    </div>
       </form>
-      <div class="social">
-        <ul class="social">
-          <li class="instagram"><a href="https://www.instagram.com/insta_daniel_gram/" class="button" target="_blank"></a></li>
-        </ul>
-      </div>
+    </div>
+    <div class="social">
+      <ul class="social">
+        <li class="instagram"><a href="https://www.instagram.com/insta_daniel_gram/" class="button" target="_blank"></a></li>
+      </ul>
     </div>
   </body>
 </html>

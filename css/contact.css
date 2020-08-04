@@ -1,4 +1,7 @@
-@import url("guide.css");
+@import url("guide.css?ver=1.0");
+.cont{
+    max-height: 1100px;
+}
 p{
     font-size:24px;
     padding: 40px;

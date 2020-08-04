@@ -37,5 +37,5 @@ if(!$mail->Send()) {
 } else {
   echo "Email sent successfully";
 }
-header("Location: index");
+header("Location: thanks");
 ?>
